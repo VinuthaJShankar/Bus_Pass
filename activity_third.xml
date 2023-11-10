@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textSize="40dp"
+        android:text="Student Details"
+        android:onClick="btnDisplayClicked"
+        />
+
+    <TextView
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Name :"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Usn :"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/textUsn"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+
+    <GridLayout
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:columnCount="2"
+        android:rowCount="6">
+
+        <!-- Headers -->
+        <TextView
+            android:padding="4dp"
+            android:text="BRANCH : "
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:padding="4dp"
+            android:text="SEM : "
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:padding="4dp"
+            android:text="MOBILE NO : "
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:padding="4dp"
+            android:text="STOP NAME : "
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:padding="4dp"
+            android:text="ROUTE NO : "
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:padding="4dp"
+            android:text="RECEIPT NO. : "
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="20dp" />
+
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Apply For Bus Pass"
+        android:textSize="25dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="View Bus Pass"
+        android:textSize="25dp"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
